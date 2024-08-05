@@ -5,7 +5,7 @@ def parse_requirements(filename):
         return [line.strip() for line in f if line and not line.startswith('#')]
 
 setup(
-    name="dummy_package",
+    name="dummy-python-package",
     version="0.1.0",
     author="Omar",
     author_email="omar@email.com",
