@@ -7,12 +7,12 @@ def parse_requirements(filename):
 setup(
     name="dummy_package",
     version="0.1.0",
-    author="Your Name",
-    author_email="your_email@example.com",
+    author="Omar",
+    author_email="omar@email.com",
     description="A simple dummy package for testing purposes",
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url="https://github.com/your_username/dummy_package",
+    url="https://github.com/Omarweb/dummy-python-package",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
